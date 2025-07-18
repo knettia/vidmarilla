@@ -1,0 +1,19 @@
+# D programming language project files
+.dub
+docs.json
+__dummy.html
+docs/
+/vidmarilla
+vidmarilla.so
+vidmarilla.dylib
+vidmarilla.dll
+vidmarilla.a
+vidmarilla.lib
+vidmarilla-test-*
+*.exe
+*.o
+*.obj
+*.lst
+
+# Other build artefacts
+documentation/out
