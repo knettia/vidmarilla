@@ -1,0 +1,9 @@
+# This file acts as an example configuration for Vidmarilla, using cropping.
+targets:
+  base-target:
+    format: mp4
+    sequence:
+      - file: "resources/beach1.mp4"
+        end: "00:00:10"
+      - "resources/beach2.mp4"
+      - "resources/beach3.mp4"

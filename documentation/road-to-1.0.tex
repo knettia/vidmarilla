@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{hyperref}
+
+\title{Vidmarilla's Road to 1.0}
+\author{A. C. Gäßler}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\textit{Vidmarilla} is a tool for assembling videos through segments using a \textit{YAML} configuration file. It is written in the \textit{D} programming language and aims to easily be able to produce multiple ``cuts'' for a video content.
+
+\bigskip
+
+The current version of \textit{Vidmarilla} is \texttt{0.1.0}.
+
+\section*{Goals}
+
+The following lists enumerate the objectives and functional targets necessary for the \textit{Vidmarilla} tool to reach version \texttt{1.0}.
+
+\subsection*{Completed}
+\begin{itemize}[label=$\checkmark$]
+	\item Parse and validate \texttt{vidmarilla.yaml} files
+\end{itemize}
+
+\subsection*{Pending Implementation}
+\begin{itemize}[label=$\square$]
+	\item Implement basic assembly via concatenating video segments
+	\item Implement cropping of said video segments
+	\item Implement ability to choose a custom resolution
+	\item Implement ability to choose to fit desired video segments to the resolution chosen (custom or automatic)
+	\item Implement offset positions for video segments
+\end{itemize}
+
+\end{document}

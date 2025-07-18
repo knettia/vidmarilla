@@ -1,0 +1,8 @@
+# This file acts as an example configuration for Vidmar
+targets:
+  base-target:
+    format: mp4
+    sequence:
+      - "resources/beach1.mp4"
+      - "resources/beach2.mp4"
+      - "resources/beach3.mp4"
