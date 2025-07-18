@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"A. C. Gäßler"
+	],
+	"copyright": "Copyright © 2025, A. C. Gäßler",
+	"dependencies": {
+		"dyaml": "~>0.10.0"
+	},
+	"description": "A minimal tool for assembling videos written in D",
+	"license": "0BSD",
+	"version": "0.1.0",
+	"name": "vidmarilla"
+}
