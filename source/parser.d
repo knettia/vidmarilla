@@ -3,6 +3,7 @@ module parser;
 import std.stdio;
 import std.file;
 import std.conv;
+import std.exception;
 import util;
 
 struct ClipSegment

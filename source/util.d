@@ -1,18 +1,11 @@
 module util;
 
+import std.exception;
+
 /// Returns a string representing the expected timestamp format
 string timestamp_format_example()
 {
 	return "HH:MM:SS.mmm";
-}
-
-/// Throws an exception if the condition is false, with an optional message
-void enforce(bool condition, string message = "Assertion failed")
-{
-	if (!condition)
-	{
-		throw new Exception(message);
-	}
 }
 
 /// Creates an error message for an invalid timestamp
@@ -114,7 +107,7 @@ bool is_valid_hex(string hex)
 	return true;
 }
 
-/// Parses an integer and validates it as a valid RGB component (0-255)
+/// Parses an integer and checks if it is a valid RGB component (0-255)
 uint parse_and_validate_rgb(int value)
 {
 	enforce(value >= 0 && value <= 255, "RGB component value must be between 0 and 255.");
