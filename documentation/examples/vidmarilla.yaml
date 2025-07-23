@@ -1,4 +1,4 @@
-# This file acts as an example configuration for Vidmar
+# This file acts as an example configuration for Vidmarilla.
 targets:
   base-target:
     format: mp4
